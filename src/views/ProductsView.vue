@@ -25,17 +25,6 @@ export default Vue.extend({
 
 <template>
   <section class="products-page">
-    <div class="products-page__hero">
-      <div>
-        <p class="products-page__eyebrow">Assignment Scope</p>
-        <h1>商品列表頁</h1>
-      </div>
-      <p class="products-page__lead">
-        模擬商品資料由本地 data 產生，商品卡 hover
-        圖片時會顯示加入購物車按鈕，點擊後透過 Dialog 輸入數量並送入 Vuex。
-      </p>
-    </div>
-
     <div class="products-page__grid">
       <product-card
         v-for="product in products"

@@ -64,8 +64,12 @@ export default Vue.extend({
 
 .product-card__media {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
   aspect-ratio: 4 / 3;
+  padding: 1.5rem;
   background: linear-gradient(
     135deg,
     rgba(20, 43, 83, 0.08),
@@ -74,10 +78,12 @@ export default Vue.extend({
 }
 
 .product-card__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: min(72%, 240px);
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
   display: block;
+  object-fit: contain;
 }
 
 .product-card__action {
@@ -97,7 +103,7 @@ export default Vue.extend({
   z-index: 10;
 }
 
-.product-card__action:active{
+.product-card__action:active {
   transform: scale(0.98);
 }
 
@@ -144,5 +150,16 @@ export default Vue.extend({
 
 .product-card__body p {
   color: var(--muted-text);
+}
+
+@media (max-width: 640px) {
+  .product-card__media {
+    padding: 1rem;
+    aspect-ratio: 1 / 1;
+  }
+
+  .product-card__image {
+    width: min(76%, 200px);
+  }
 }
 </style>
