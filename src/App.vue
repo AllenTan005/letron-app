@@ -27,7 +27,6 @@ export default Vue.extend({
   <div id="app" class="app-shell">
     <header class="app-header">
       <router-link class="app-brand" to="/">
-     
         <strong class="app-brand__title">Letron Menu</strong>
       </router-link>
 

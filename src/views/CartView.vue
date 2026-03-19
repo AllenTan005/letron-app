@@ -43,7 +43,6 @@ export default Vue.extend({
   <section class="cart-page">
     <header class="cart-page__header">
       <div>
-     
         <h1>購物車頁</h1>
       </div>
 
