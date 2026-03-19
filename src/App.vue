@@ -27,8 +27,8 @@ export default Vue.extend({
   <div id="app" class="app-shell">
     <header class="app-header">
       <router-link class="app-brand" to="/">
-        <span class="app-brand__eyebrow">Vue 2 Storefront Demo</span>
-        <strong class="app-brand__title">Letron Select</strong>
+     
+        <strong class="app-brand__title">Letron Menu</strong>
       </router-link>
 
       <nav class="app-nav" aria-label="Main navigation">
