@@ -20,11 +20,11 @@ export const products: Product[] = [
   },
   {
     id: 102,
-    title: "鮭魚握壽司組合",
+    title: "魚蛋壽司",
     price: 30,
     image: sushi,
     description:
-      "新鮮鮭魚握壽司搭配芥末與薑片，入口清爽，帶出細緻鮮味。",
+      "新鮮魚蛋搭配米飯芥末與薑片，入口清爽，帶出細緻鮮味。",
   },
   {
     id: 103,
