@@ -100,7 +100,7 @@ export default Vue.extend({
         <img class="dialog__image" :src="product.image" :alt="product.title" />
 
         <div class="dialog__details">
-          <p class="dialog__eyebrow">Add To Cart</p>
+          <p class="dialog__eyebrow">加入購物車</p>
           <h2>{{ product.title }}</h2>
           <p class="dialog__description">{{ product.description }}</p>
 
